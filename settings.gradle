@@ -1,0 +1,2 @@
+include ':moxysample_1'
+rootProject.name='MoxySamples'
