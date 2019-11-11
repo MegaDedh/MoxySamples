@@ -10,7 +10,6 @@ class MainPresenter constructor(
 
 // сперва последовательно выгружаются команды из ViewState (первые в ViewState шли команды 1 и 3),
 // при каждом перевороте во ViewState добавляется команда 1 (вызовы 1.1, 1.2, 1.3)
-// (т.к. каждый раз при создании Activity и сохранятеся в ViewState)
 
     override fun onFirstViewAttach() {
         super.onFirstViewAttach()
