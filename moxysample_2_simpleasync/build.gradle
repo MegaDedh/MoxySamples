@@ -2,12 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+
 android {
     compileSdkVersion 28
 
 
     defaultConfig {
-        applicationId "ru.asshands.softwire.moxysample_1"
+        applicationId "ru.asshands.softwire.moxysample_2_simpleasync"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
@@ -23,9 +24,9 @@ android {
         }
     }
 
-
     // При работе с MOXY 2 fix error:
     // Invoke-customs are only supported starting with Android O (--min-api 26)
+    // Fatal signal 11 (SIGSEGV), code 1
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -47,9 +48,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-
     kapt "com.github.moxy-community:moxy-compiler:$moxyVersion"
     implementation "com.github.moxy-community:moxy-androidx:$moxyVersion"
     implementation "com.github.moxy-community:moxy-ktx:$moxyVersion"
-
 }
