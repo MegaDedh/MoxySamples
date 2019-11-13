@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">moxysample_3_Async with Timer</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="timer">%1$d</string>
+</resources>

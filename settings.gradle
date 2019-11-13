@@ -1,2 +1,2 @@
-include ':moxysample_1', ':moxysample_2_simpleasync'
+include ':moxysample_1', ':moxysample_2_simpleasync', ':moxysample_3_asyncwithtimer'
 rootProject.name='MoxySamples'
