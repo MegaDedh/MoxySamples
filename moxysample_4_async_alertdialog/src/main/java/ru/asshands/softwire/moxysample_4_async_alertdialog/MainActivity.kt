@@ -45,18 +45,24 @@ class MainActivity : MvpAppCompatActivity(), HelloWorldView {
             .setTitle(R.string.app_name)
             .setMessage(message)
             .setPositiveButton(R.string.ok, null)
+            // если пользователь скрывает AlertDialog,
+            // то нужно пробросить эту команду через Presenter (чтобы она записалась в стек)
+            // в противном случае мы снова увидим AlertDialog при перевороте:
             .setOnDismissListener { mHelloWorldPresenter.onDismissMessage() }
             .show()
     }
 
     override fun hideMessage() {
-        mMessageDialog?.let { it.dismiss() }
+         mMessageDialog?.let { it.dismiss() }
     }
 
     override fun onDestroy() {
         super.onDestroy()
         mMessageDialog?.let {
+            // поскольку скрытие инициировано системой, а не пользователем,
+            // выключаем Listener, чтобы последней командой в стек не улетела hideMessage
             it.setOnDismissListener(null)
+            // скрываем AlertDialog, перед смертью Activity, (чтобы не поймать WindowLeaked):
             it.dismiss()
         }
     }
