@@ -53,7 +53,10 @@ class MainActivity : MvpAppCompatActivity(), HelloWorldView {
     }
 
     override fun hideMessage() {
-         mMessageDialog?.let { it.dismiss() }
+         mMessageDialog?.let {
+             it.dismiss()
+             it.setOnDismissListener(null)
+         }
     }
 
     override fun onDestroy() {
