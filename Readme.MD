@@ -1,9 +1,9 @@
-# Moxy samples
+п»ї# Moxy samples
 
-[Moxy. Как правильно пользоваться? / Юрий Шмаков (Arello Mobile)](https://youtu.be/8_hbxA4kx50)
+[Moxy. РљР°Рє РїСЂР°РІРёР»СЊРЅРѕ РїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ? / Р®СЂРёР№ РЁРјР°РєРѕРІ (Arello Mobile)](https://youtu.be/8_hbxA4kx50)
 
 ## moxysample_1
-[Совсем простой пример-Extra-minimal Moxy sample] (https://gist.github.com/senneco/a91bd53f257c0fddda6e47f7de9a9fb8)
+[РЎРѕРІСЃРµРј РїСЂРѕСЃС‚РѕР№ РїСЂРёРјРµСЂ-Extra-minimal Moxy sample] (https://gist.github.com/senneco/a91bd53f257c0fddda6e47f7de9a9fb8)
 
 ## moxysample_2_simpleasync
 https://github.com/moxy-community/Moxy/wiki/Simple-Async
@@ -17,13 +17,13 @@ https://github.com/moxy-community/Moxy/wiki/Simple-Async-with-AlertDialog
 ##moxysample_5_asyncwith_view
 https://github.com/moxy-community/Moxy/wiki/Async-with-Vew-Inflate
 
-##moxysample_6_custom_view_as_mvpview (не запустил)
+##moxysample_6_custom_view_as_mvpview (РЅРµ Р·Р°РїСѓСЃС‚РёР»)
 https://github.com/moxy-community/Moxy/wiki/CustomView-as-MvpView
 
 https://github.com/daniil-vinogradov/MoxyIssue
 
-##moxysample_7_2fragments (пока ещё не запустил)
-[Задача 5 из видео](https://youtu.be/8_hbxA4kx50?t=1060)
+##moxysample_7_2fragments (РїРѕРєР° РµС‰С‘ РЅРµ Р·Р°РїСѓСЃС‚РёР»)
+[Р—Р°РґР°С‡Р° 5 РёР· РІРёРґРµРѕ](https://youtu.be/8_hbxA4kx50?t=1060)
 
 ##Arello-Mobile/Moxy/sample-github/
 https://github.com/Arello-Mobile/Moxy/tree/master/sample-github
