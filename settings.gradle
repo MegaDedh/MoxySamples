@@ -1,2 +1,2 @@
-include ':moxysample_1', ':moxysample_2_simpleasync', ':moxysample_3_asyncwithtimer', ':moxysample_4_async_alertdialog'
+include ':moxysample_1', ':moxysample_2_simpleasync', ':moxysample_3_asyncwithtimer', ':moxysample_4_async_alertdialog', ':moxysample_5_asyncwith_view', ':moxysample_6_custom_view_as_mvpview', ':moxysample_7_2fragments'
 rootProject.name='MoxySamples'
